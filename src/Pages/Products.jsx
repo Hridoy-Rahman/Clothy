@@ -12,7 +12,7 @@ const Products = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/data.json");
+        const res = await fetch("https://mocki.io/v1/84515102-9604-4489-8cb2-4328b6b66bcf");
         const data = await res.json();
         setproducts(data);
         setFilteritems(data);
