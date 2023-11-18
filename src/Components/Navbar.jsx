@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="max-w-screen-2xl xl:px-28 px-4">
+      <header className="max-w-screen-2xl xl:px-28 px-4 mb-4 absolute top-0 left-0 right-0">
         <nav className="flex justify-between items-center text-gray-600 container md:py-4 pt-6 pb-3">
           <FaSearch className="h-5 w-5 cursor-pointer hidden md:block  hover:text-orange-600"></FaSearch>
 
@@ -60,6 +60,7 @@ const Navbar = () => {
             </button>
           </div>
         </nav>
+        <hr />
 
         {/* Category Menu */}
         <div className="pt-4">
